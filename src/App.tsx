@@ -1,10 +1,11 @@
-import Theme from "./components/Theme";
+// import Theme from "./components/Theme";
+import Form from "./components/Form";
 import './index.css'
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center w-full mt-[10rem]">
-      <Theme />
+    <div>
+      <Form />
     </div>
   );
 };

@@ -1,11 +1,12 @@
 // import Theme from "./components/Theme";
-import Form from "./components/Form";
+// import Form from "./components/Form";
+import Form2 from "./components/Form2";
 import './index.css'
 
 const App = () => {
   return (
     <div>
-      <Form />
+      <Form2 />
     </div>
   );
 };

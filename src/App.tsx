@@ -1,11 +1,12 @@
-// import { useState } from 'react'
+import Theme from "./components/Theme";
+import './index.css'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>React 19 features</h1>
-    </>
-  )
-}
+    <div className="flex justify-center items-center w-full mt-[10rem]">
+      <Theme />
+    </div>
+  );
+};
 
-export default App
+export default App;
